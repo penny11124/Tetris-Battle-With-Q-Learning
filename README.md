@@ -70,13 +70,13 @@ Yi-Lin Sung, r06942076@ntu.edu.tw
 
 ## **Game Rules**
 ### End Game (jump out the main loop): <br/>
-1. Press the upper right cross (evnt.type == pygame.QUIT)
-2. Some player died (Stacked blocks reach top)
-3. After the timer expires
+1. Press the upper right cross (evnt.type == pygame.QUIT) <br/>
+2. Some player died (Stacked blocks reach top) <br/>
+3. After the timer expires <br/>
 ### Victory or defeat: <br/>
-1. If someone dies, the deceased loses.
-2. Who has more send lines will win.
-3. Comparing who has the lower top.
+1. If someone dies, the deceased loses. <br/>
+2. Who has more send lines will win. <br/>
+3. Comparing who has the lower top. <br/>
 ### send line calculation: <br/>
 **1. cleared:** <br/>
 The number of lines to be deleted <br/>
