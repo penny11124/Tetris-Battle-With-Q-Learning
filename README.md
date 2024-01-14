@@ -80,12 +80,6 @@ python test.py > record.txt
 ```
 You can see the result in record.txt
 
-## **Disclaimer**
-
-This work is based on the following repos: <br/>
-1. https://github.com/ylsung/TetrisBattle
-2. https://github.com/uvipen/Tetris-deep-Q-learning-pytorch
-
 ## **Game Rules**
 
 ### End Game (jump out the main loop): <br/>
@@ -117,3 +111,10 @@ Two adjacent eliminations are "Tetris" or "T-spin" <br/>
 
 **Group37_model.py and tetris file are belongs to Team 37**<br/>
 **Team 38 trained models are in my_models folder**
+
+
+## **Disclaimer**
+
+This work is based on the following repos: <br/>
+1. https://github.com/ylsung/TetrisBattle
+2. https://github.com/uvipen/Tetris-deep-Q-learning-pytorch
