@@ -54,6 +54,27 @@ python -m game.tetris_game --mode single
 ```
 python -m game.tetris_game --mode double
 ```
+### Train model
+
+```
+python train.py
+```
+
+### Single player mode with AI agent
+```
+(in test.py line 40)
+env = TetrisSingleEnv(gridchoice="none", obs_type="image", mode="human")
+(in command line)
+python test.py
+```
+
+### Two players mode with Team 38 AI agent and Team 37 AI agent
+```
+(in test.py line 40)
+env = TetrisDoubleEnv(gridchoice="none", obs_type="image", mode="human")
+(in command line)
+python test.py
+```
 
 ### Usage for environments
 Please refer to `example.py`.
@@ -65,20 +86,21 @@ Note: You can define your reward function in `reward_func` in `tetris_interface.
 This work is based on the following repos: <br/>
 1. https://github.com/xuyuwei/tetris-battle
 
-## **Contact**
-Yi-Lin Sung, r06942076@ntu.edu.tw
-
 ## **Game Rules**
+
 ### End Game (jump out the main loop): <br/>
+
 1. Press the upper right cross (evnt.type == pygame.QUIT) <br/>
 2. Some player died (Stacked blocks reach top) <br/>
 3. After the timer expires <br/>
 ### Victory or defeat: <br/>
+
 1. If someone dies, the deceased loses. <br/>
 2. Who has more send lines will win. <br/>
 3. Comparing who has the lower top. <br/>
 ### Send line calculation: <br/>
-1. cleared:** <br/>
+
+1. cleared: <br/>
 The number of lines to be deleted <br/>
 2 rows: +1 point <br/>
 3 rows: +2 points <br/>
