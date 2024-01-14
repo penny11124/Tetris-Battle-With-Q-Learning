@@ -21,13 +21,13 @@ The repository contains:
 
 demo the fuctions: tspin and back to back.
 
-![single player](imgs/demo_single.gif)
+![single player](imgs/single_demo.gif)
 
 ### Two players mode
 
 demo the functions: tetris, combo and ko.
 
-![two player](imgs/demo_double.gif)
+![two player](imgs/double_demo.gif)
 
 ## **Requirements**
 ```
@@ -75,7 +75,7 @@ python test.py
 env = TetrisDoubleEnv(gridchoice="none", obs_type="image", mode="human")
 
 (in command line)
-python test.py
+python test.py > record.txt
 ```
 You can see the result in record.txt
 
