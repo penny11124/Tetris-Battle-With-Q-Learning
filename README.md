@@ -114,3 +114,6 @@ Use T-shaped block to snap into the gap and eliminate two rows <br/>
 4. back to back: <br/>
 Two adjacent eliminations are "Tetris" or "T-spin" <br/>
 +2分 <br/>
+
+**Group37_model.py and tetris file are belongs to Team 37**<br/>
+**Team 38 trained models are in my_models folder**
