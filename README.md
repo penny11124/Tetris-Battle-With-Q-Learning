@@ -83,12 +83,12 @@ The number of lines to be deleted <br/>
 2 rows: +1 point <br/>
 3 rows: +2 points <br/>
 4 rows: +4 points (Tetris) <br/>
-**2. combo:** <br/>
+2. combo: <br/>
 Achieving consecutive line clears， <br/>
 +(combo+1)/2 points (up to a maximum of 4 points) <br/>
-**3. T-spin:** <br/>
+3. T-spin: <br/>
 Use T-shaped block to snap into the gap and eliminate two rows <br/>
 +3分 <br/>
-**4. back to back:** <br/>
+4. back to back: <br/>
 Two adjacent eliminations are "Tetris" or "T-spin" <br/>
 +2分 <br/>
