@@ -77,6 +77,7 @@ env = TetrisDoubleEnv(gridchoice="none", obs_type="image", mode="human")
 (in command line)
 python test.py
 ```
+You can see the result in record.txt
 
 ## **Disclaimer**
 
