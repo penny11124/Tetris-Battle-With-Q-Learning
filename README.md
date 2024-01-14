@@ -77,8 +77,8 @@ Yi-Lin Sung, r06942076@ntu.edu.tw
 1. If someone dies, the deceased loses. <br/>
 2. Who has more send lines will win. <br/>
 3. Comparing who has the lower top. <br/>
-### send line calculation: <br/>
-**1. cleared:** <br/>
+### Send line calculation: <br/>
+1. cleared:** <br/>
 The number of lines to be deleted <br/>
 2 rows: +1 point <br/>
 3 rows: +2 points <br/>
