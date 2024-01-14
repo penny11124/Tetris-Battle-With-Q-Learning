@@ -19,13 +19,13 @@ The repository contains:
 
 ### Single player mode
 
-demo the fuctions: tspin and back to back.
+demo the functions: back to back, tetris, combo.
 
 ![single player](imgs/single_demo.gif)
 
 ### Two players mode
 
-demo the functions: tetris, combo and ko.
+demo the functions: back to back, tetris, combo and ko.
 
 ![two player](imgs/double_demo.gif)
 
