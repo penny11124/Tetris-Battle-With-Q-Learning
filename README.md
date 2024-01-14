@@ -64,6 +64,7 @@ python train.py
 ```
 (in test.py line 40)
 env = TetrisSingleEnv(gridchoice="none", obs_type="image", mode="human")
+
 (in command line)
 python test.py
 ```
@@ -72,14 +73,10 @@ python test.py
 ```
 (in test.py line 40)
 env = TetrisDoubleEnv(gridchoice="none", obs_type="image", mode="human")
+
 (in command line)
 python test.py
 ```
-
-### Usage for environments
-Please refer to `example.py`.
-
-Note: You can define your reward function in `reward_func` in `tetris_interface.py`
 
 ## **Disclaimer**
 
