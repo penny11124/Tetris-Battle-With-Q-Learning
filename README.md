@@ -26,6 +26,7 @@ demo the functions: back to back, tetris, combo.
 ### Two players mode
 
 demo the functions: back to back, tetris, combo and ko.
+right / left : Team 38 / Team 37
 
 ![two player](imgs/double_demo.gif)
 
