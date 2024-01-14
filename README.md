@@ -81,7 +81,8 @@ python test.py
 ## **Disclaimer**
 
 This work is based on the following repos: <br/>
-1. https://github.com/xuyuwei/tetris-battle
+1. https://github.com/ylsung/TetrisBattle
+2. https://github.com/uvipen/Tetris-deep-Q-learning-pytorch
 
 ## **Game Rules**
 
