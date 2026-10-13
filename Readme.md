@@ -1,6 +1,6 @@
 # Tetris Battle AI：以Deep Q-Learning訓練對戰型俄羅斯方塊Agent
 
-> 2023 Mechine Learning Final Project（Team 38）。我們在經典 Facebook遊戲Tetris Battle 的 pygame 復刻版上，以 Deep Q-Learning 訓練 AI 代理人，並在與 Team 37 AI 的正式對戰中取得 **10戰9勝**。
+> 2023 Mechine Learning Final Project（Team 38） ── 我們在經典 Facebook遊戲Tetris Battle 的 pygame 復刻版上，以 Deep Q-Learning 訓練 AI 代理人，並在與 Team 37 AI 的正式對戰中取得 **10戰9勝**。
 
 ![Python](https://img.shields.io/badge/Python-3.6+-3776AB?logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-DQN-EE4C2C?logo=pytorch&logoColor=white)
