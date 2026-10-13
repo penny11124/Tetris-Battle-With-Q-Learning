@@ -24,7 +24,9 @@
 
 Tetris Battle 是多人對戰版的俄羅斯方塊：消除行數不僅能得分，還會把灰色垃圾行送到對手畫面，讓對方更難存活。這種具競爭性的環境很適合用來測試強化學習代理人的策略決策能力。
 
-本專案的目標是以 Q-Learning 訓練一個能在 Tetris Battle 中擊敗其他隊伍 AI Agent。我們設計了精簡的盤面狀態表示，並經過多次迭代調整獎勵函數，最終讓 AI 學會控制堆疊高度、避免死亡，並善用「Hold」暫存方塊來打出高分組合。
+本專案建立在 ylsung/TetrisBattle 之上，沿用其高度還原的遊戲本體與 Gym 風格的訓練環境，並在此基礎上加入狀態特徵計算、落點列舉、獎勵函數與 DQN 訓練流程。
+
+本專案的目標是以 Q-Learning 訓練一個能在 Tetris Battle 中擊敗其他隊伍 AI 的代理人。我們設計了精簡的盤面狀態表示，並經過多次迭代調整獎勵函數，最終讓 AI 學會控制堆疊高度、避免死亡，並善用「Hold」暫存方塊來打出高分組合。
 
 ## 方法
 
@@ -172,7 +174,7 @@ python test.py > record.txt   # 對戰結果會寫入 record.txt
 
 ## 致謝與參考資料
 
-- 遊戲環境：[ylsung/TetrisBattle](https://github.com/ylsung/TetrisBattle)（MIT License）
+- 遊戲環境：ylsung/TetrisBattle（MIT License），其部分遊戲功能源自 xuyuwei/tetris-battle
 - DQN 實作參考：[uvipen/Tetris-deep-Q-learning-pytorch](https://github.com/uvipen/Tetris-deep-Q-learning-pytorch)
 - 理論參考：李宏毅 DRL Lecture 3: Q-learning（[shaoeChen 筆記](https://hackmd.io/@shaoeChen/Bywb8YLKS/https%3A%2F%2Fhackmd.io%2F%40shaoeChen%2FSyqVopoYr)）
 - `Group37_model.py` 與 `tetris` 檔案為 Team 37 所有，僅用於對戰測試。
