@@ -16,7 +16,7 @@
 
 ![single player](imgs/single_demo.gif)
 
-**雙人對戰**：右側為 Team 38（我們的 AI），左側為 Team 37 的 AI。
+**雙人對戰**：左側為 Team 38（我們的 AI），右側為 Team 37 的 AI。
 
 ![two player](imgs/double_demo.gif)
 
